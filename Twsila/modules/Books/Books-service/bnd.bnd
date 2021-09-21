@@ -1,0 +1,6 @@
+Bundle-Name: Books-service
+Bundle-SymbolicName: org.books.service
+Bundle-Version: 1.0.1
+Liferay-Require-SchemaVersion: 1.0.1
+Liferay-Service: true
+-dsannotations-options: inherit

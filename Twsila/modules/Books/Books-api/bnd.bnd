@@ -1,0 +1,10 @@
+Bundle-Name: Books-api
+Bundle-SymbolicName: org.books.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	org.books.exception,\
+	org.books.model,\
+	org.books.service,\
+	org.books.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../Books-service/service.xml
